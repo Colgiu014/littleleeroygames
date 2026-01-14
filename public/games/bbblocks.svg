@@ -1,0 +1,38 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2332;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3f5f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  
+  <!-- Game Title -->
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">BBBlocks</text>
+  
+  <!-- Puzzle Icon -->
+  <g transform="translate(400, 250)">
+    <!-- Cyan blocks -->
+    <rect x="0" y="0" width="80" height="80" fill="#6ee7b7" stroke="#34d399" stroke-width="3" rx="8"/>
+    <rect x="90" y="0" width="80" height="80" fill="#6ee7b7" stroke="#34d399" stroke-width="3" rx="8"/>
+    <rect x="0" y="90" width="80" height="80" fill="#6ee7b7" stroke="#34d399" stroke-width="3" rx="8"/>
+    
+    <!-- Blue blocks -->
+    <rect x="180" y="90" width="80" height="80" fill="#7dd3fc" stroke="#38bdf8" stroke-width="3" rx="8"/>
+    <rect x="270" y="90" width="80" height="80" fill="#7dd3fc" stroke="#38bdf8" stroke-width="3" rx="8"/>
+    <rect x="180" y="180" width="80" height="80" fill="#7dd3fc" stroke="#38bdf8" stroke-width="3" rx="8"/>
+    
+    <!-- Green blocks -->
+    <rect x="270" y="180" width="80" height="80" fill="#86efac" stroke="#4ade80" stroke-width="3" rx="8"/>
+    <rect x="270" y="270" width="80" height="80" fill="#86efac" stroke="#4ade80" stroke-width="3" rx="8"/>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="600" y="650" font-family="Arial, sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle">Match blocks, clear lines, achieve high scores!</text>
+  
+  <!-- Status Badge -->
+  <rect x="520" y="700" width="160" height="45" fill="#22c55e" rx="22.5"/>
+  <text x="600" y="730" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Available Now</text>
+</svg>
