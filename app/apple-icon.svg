@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="puzzleGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="180" height="180" fill="#1f2937" rx="20"/>
+  
+  <!-- Puzzle piece shape -->
+  <path d="M 40,40 
+           L 75,40 
+           C 75,32 82,25 90,25 
+           C 98,25 105,32 105,40 
+           L 140,40 
+           L 140,75 
+           C 148,75 155,82 155,90 
+           C 155,98 148,105 140,105 
+           L 140,140 
+           L 105,140 
+           C 105,148 98,155 90,155 
+           C 82,155 75,148 75,140 
+           L 40,140 
+           L 40,105 
+           C 32,105 25,98 25,90 
+           C 25,82 32,75 40,75 
+           Z" 
+        fill="url(#puzzleGrad2)" 
+        stroke="#fff" 
+        stroke-width="3"/>
+</svg>

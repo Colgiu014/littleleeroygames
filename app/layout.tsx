@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   description: "Little Leeroy Games is an indie game studio creating fun and engaging mobile games. Check out our latest game BBBlocks and more!",
   keywords: ["indie games", "mobile games", "game studio", "Romania", "BBBlocks", "puzzle games"],
   authors: [{ name: "Little Leeroy Games" }],
+  icons: {
+    icon: '/puzzle-icon.svg',
+    apple: '/puzzle-icon.svg',
+  },
   openGraph: {
     title: "Little Leeroy Games - Indie Game Studio",
     description: "Creating fun and engaging mobile games from Romania",
