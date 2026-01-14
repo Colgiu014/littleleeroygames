@@ -13,7 +13,7 @@ const games = [
     image: '/games/bbblocks.svg',
     status: 'Available Now',
     platforms: ['Android', 'iOS'],
-    link: 'http://blocks-blocks-blocks.web.app/', // Add your game link here
+    link: 'https://github.com/Colgiu014/littleleeroygames/raw/main/BBBlocks.apk', // Direct APK download
     color: 'from-cyan-500 to-blue-600',
   },
   // Add more games here in the future
