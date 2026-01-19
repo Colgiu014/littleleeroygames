@@ -20,9 +20,6 @@ export default function Footer() {
                 Little Leeroy Games
               </span>
             </Link>
-            <p className="text-gray-400 text-sm">
-              Creating fun and engaging indie games from Romania.
-            </p>
           </div>
 
           {/* Quick Links */}
@@ -84,9 +81,6 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm text-center sm:text-left">
               © {currentYear} Little Leeroy Games. All rights reserved.
-            </p>
-            <p className="text-gray-400 text-sm flex items-center gap-1">
-              Made with <Heart size={16} className="text-red-500" /> in Romania
             </p>
           </div>
         </div>

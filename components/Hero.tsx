@@ -57,7 +57,7 @@ export default function Hero() {
           >
             <Sparkles className="w-5 h-5 text-yellow-400" />
             <p className="text-xl sm:text-2xl text-purple-300 font-medium">
-              Indie Game Studio from Romania
+              Indie Game Studio
             </p>
             <Sparkles className="w-5 h-5 text-yellow-400" />
           </motion.div>
